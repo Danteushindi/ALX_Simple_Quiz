@@ -6,7 +6,7 @@ function checkAnswer() {
 	var userAnswer = checkedRadio.value;
 
 	if (userAnswer === correctAnswer) {
-		document.getElementById("feedback").innerHTML = "Correct Well done.";
+		document.getElementById("feedback").innerHTML = "Correct! Well done.";
 	}
     
     else {
